@@ -26,7 +26,7 @@ function App() {
             return { ...item, title: name };
           }
           return item;
-        })
+        })  
       );
       setName('');
       setEditID(null);
